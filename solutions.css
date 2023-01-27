@@ -135,3 +135,49 @@
 
 
 /* esercizio 12 */
+
+.ex-12-button{
+    position: relative;
+}
+
+.ex-12-button:hover .ex-12-top-white{
+    animation-name: sx;
+    animation-duration: 2s;
+    position: absolute;
+}
+
+@keyframes sx{
+    50%{
+        left: calc(100% - 60px);
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation-name: dx;
+    animation-duration: 2s;
+    position: absolute;
+}
+
+@keyframes dx{
+    50%{
+        right: calc(100% - 60px);
+    }
+}
+
+/* esercizio 13 */
+
+/* .ex-13-button{
+    position: relative;
+}
+
+.ex-13-button:hover .ex-13-top-white{
+    position: absolute;
+    animation-name: turn;
+    animation-duration: 2s;
+}
+
+@keyframes turn{
+    50%{
+        right: 10px;
+    }
+} */
